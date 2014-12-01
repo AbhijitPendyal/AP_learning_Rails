@@ -3132,3 +3132,71 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-07 19:44:17 -08
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 19:44:17 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-14 12:58:24 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 74ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-14 12:58:25 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-14 12:58:25 -0800
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-11-14 12:58:25 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-14 12:58:25 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-14 12:58:25 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-14 12:58:25 -0800
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-11-14 12:58:25 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-14 12:58:25 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-14 12:58:25 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 08:32:26 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 67ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-11-26 08:32:27 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 08:32:27 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-26 08:32:27 -0800
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-11-26 08:32:27 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-26 08:32:27 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-26 08:32:27 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-26 08:32:27 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-26 08:32:27 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 08:32:27 -0800

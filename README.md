@@ -19,3 +19,12 @@ Each **Action**'s purpose is to collect information to provide it to a view.
     Active Record is smart enough to automatically map column names to model attributes, which means you don't have to declare attributes inside Rails models, as that will be done automatically by Active Record.
     
 **Migrations** are Ruby classes that are designed to make it simple to create and modify database tables. Rails uses rake commands to run migrations, and it's possible to undo a migration after it's been applied to your database. Migration filenames include a timestamp to ensure that they're processed in the order that they were created.
+
+Active Record design pattern is provided in a Ruby module called ActiveRecord
+
+Using the functionality provided by this module, you can:
+Establish a connection to the database
+Create a database tables
+Specify associations between tables that correspond to association between Ruby classes
+Establish an ORM between Ruby classes / objects/attributes/ and the tables/rows/columns in the underlying database
+Perform CRUD operations on Ruby ActiveRecord objects
